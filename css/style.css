@@ -4,7 +4,9 @@
 
 /* custom style */
 
-/* root */
+/*-----------------------------------*\
+ * #root
+\*-----------------------------------*/
 :root{
     --rich-black-fogra-29: hsl(225, 25%, 9%);
     --rich-black-fogra-39: hsl(170, 21%, 5%);
@@ -21,13 +23,20 @@
     --black: hsl(0, 0%, 0%);
     --jet: hsl(0, 0%, 20%);
 
-    /* typology */
+ /*-----------------------------------*\
+ * #typology
+\*-----------------------------------*/
 
 
-    /* font family */
-    --ff-poppins: 'Poppins', sans-serif;
+/*-----------------------------------*\
+ * #fonts family
+\*-----------------------------------*/
+  
+--ff-poppins: 'Poppins', sans-serif;
 
-    /* font size */
+/*-----------------------------------*\
+ * #font size
+\*-----------------------------------*/
     --fs-1: 36px;
     --fs-2: 32px;
     --fs-3: 30px;
@@ -41,19 +50,27 @@
     --fs-11: 12px;
     --fs-12: 11px;
 
-    /* font weight */
+/*-----------------------------------*\
+ * #font weight
+\*-----------------------------------*/
     --fw-500: 500;
     --fw-700: 700;
 
-    /* transition */
+/*-----------------------------------*\
+ * #transition
+\*-----------------------------------*/
     --transition-1: 0.15s ease;
     --transition-2: 0.25s ease-in;
 
-    /* spacing */
+/*-----------------------------------*\
+ * #spacing
+\*-----------------------------------*/
     --section-padding: 100px;
 }
 
-/* reset  */
+/*-----------------------------------*\
+ * #reset
+\*-----------------------------------*/
 
 *,*::before, ::after{
     margin: 0;
@@ -102,13 +119,15 @@ body.active{overflow: hidden;}
 
 
 
-/**
- * Reused style
- */
+/*-----------------------------------*\
+ * #reused style
+\*-----------------------------------*/
 
 .container{padding-inline: 15px;}
 
-/* titles & subtitles */
+/*-----------------------------------*\
+ * #titles & subtitles
+\*-----------------------------------*/
 
 h1,
 h2,
@@ -135,7 +154,9 @@ h3{font-size: var(--fs-6);}
 
 .section-title{text-align: center;}
 
-/* badge */
+/*-----------------------------------*\
+ * #badge
+\*-----------------------------------*/
 
 .badge{
     color: var(--white);
@@ -152,7 +173,9 @@ h3{font-size: var(--fs-6);}
 
 .badge-outline{border-color: var(--white);}
 
-/* movie meta */
+/*-----------------------------------*\
+ * #movie meta
+\*-----------------------------------*/
 
 .meta-wrapper{
     display: flex;
@@ -195,7 +218,9 @@ h3{font-size: var(--fs-6);}
     color: var(--citrine);
 }
 
-/* buttons */
+/*-----------------------------------*\
+ * #buttons
+\*-----------------------------------*/
 
 .btn{
     color: var(--white);
@@ -221,7 +246,9 @@ h3{font-size: var(--fs-6);}
     color: var(--xiketic);
 }
 
-/* movie card */
+/*-----------------------------------*\
+ * #movie card
+\*-----------------------------------*/
 
 .movies-list{
     display: grid;
@@ -310,7 +337,9 @@ h3{font-size: var(--fs-6);}
     color: var(--citrine);
 }
 
-/* custom slidder & scrollbar */
+/*-----------------------------------*\
+ * #custome slidder & scrollbar
+\*-----------------------------------*/
 
 .movies-list.has-scrollbar {
     display: flex;
@@ -341,9 +370,9 @@ h3{font-size: var(--fs-6);}
 
 
 
- /**
- * Header
- */
+ /*-----------------------------------*\
+ * #header
+\*-----------------------------------*/
 
 .header{
     position: fixed;
@@ -453,9 +482,9 @@ h3{font-size: var(--fs-6);}
 }
 
 
-/**
- * Hero
- */
+/*-----------------------------------*\
+ * #hero
+\*-----------------------------------*/
 
 .hero{
     background: url(../images/hero-bg.jpg) no-repeat;
@@ -485,9 +514,9 @@ h3{font-size: var(--fs-6);}
 
 
 
- /**
- * upcoming
- */
+ /*-----------------------------------*\
+ * #upcoming
+\*-----------------------------------*/
 
 .upcoming{
     background: url(../images/upcoming-bg.png) no-repeat;
@@ -532,9 +561,10 @@ h3{font-size: var(--fs-6);}
 
 
 
- /**
- * service
- */
+ /*-----------------------------------*\
+ * #service
+\*-----------------------------------*/
+
 .service{
     background: url(../images/service-bg.jpg) no-repeat;
     background-size: cover;
@@ -633,9 +663,10 @@ h3{font-size: var(--fs-6);}
 
 .service-card .card-title{margin-bottom: 10px;}
 
- /**
- * top rated
- */
+/*-----------------------------------*\
+ * #top rated
+\*-----------------------------------*/
+
 .top-rated{
     background: url(../images/top-rated-bg.jpg) no-repeat;
     background-size: cover;
@@ -686,9 +717,9 @@ h3{font-size: var(--fs-6);}
 
 
 
-/**
- * Tv series
- */
+/*-----------------------------------*\
+ * #tv series
+\*-----------------------------------*/
 
 .tv-series{
     background: url(../images/tv-series-bg.jpg) no-repeat;
@@ -700,9 +731,9 @@ h3{font-size: var(--fs-6);}
 .tv-series .section-title{margin-bottom: 50px;}
 
 
- /**
- * cta
- */
+ /*-----------------------------------*\
+ * #cta
+\*-----------------------------------*/
 
 .cta{
     background: url(../images/cta-bg.jpg) no-repeat;
@@ -760,9 +791,9 @@ h3{font-size: var(--fs-6);}
 }
 
 
- /**
- * footer
- */
+ /*-----------------------------------*\
+ * #footer
+\*-----------------------------------*/
 
 .footer-top{
     background: url(../images/footer-bg.jpg) no-repeat;
@@ -854,9 +885,11 @@ h3{font-size: var(--fs-6);}
 }
 
 
- /**
+/*-----------------------------------*\
  * go to top
- */
+\*-----------------------------------*/
+
+
 
 .go-top{
     position: fixed;
@@ -882,17 +915,13 @@ h3{font-size: var(--fs-6);}
 }
 
 
- /**
- * movie detail
- */
 
-/* .movie-details{
-    background: url(../images/movie-3.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 160px;
-    padding-bottom: var(--section-padding);
-} */
+
+/*-----------------------------------*\
+ * movie details
+\*-----------------------------------*/
+
+/*  */
 .movie-detail{
     background:url(../images/movie-detail-bg.png)no-repeat;
     background-size: cover;
@@ -1015,12 +1044,14 @@ h3{font-size: var(--fs-6);}
 
 
 
- /**
+ /*-----------------------------------*\
  * media queiry
- */
+\*-----------------------------------*/
 
 
- /* larger screen than 550px */
+ /*-----------------------------------*\
+ * larger screen than 550px
+\*-----------------------------------*/
 
 @media(min-width: 550px){
 
@@ -1089,7 +1120,9 @@ h3{font-size: var(--fs-6);}
 
 
 
- /* larger screen than 760px */
+/*-----------------------------------*\
+ * larger screen than 760px
+\*-----------------------------------*/
 
  @media(min-width: 760px){
 
@@ -1231,7 +1264,9 @@ h3{font-size: var(--fs-6);}
 
 
 
- /* larger screen than 992px */
+ /*-----------------------------------*\
+ * larger screen than 992px
+\*-----------------------------------*/
 
 @media(min-width: 992px){
 
@@ -1378,7 +1413,9 @@ h3{font-size: var(--fs-6);}
 
 
  
- /* larger screen than 1300px */
+ /*-----------------------------------*\
+ * larger screen than 1300px
+\*-----------------------------------*/
 
 @media(min-width: 1300px){
 
